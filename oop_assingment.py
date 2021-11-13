@@ -15,10 +15,10 @@ urun fiyati hesaplarken once kar sonra otv ve kdv sirayla alis fiyatina eklenmel
 
 hazırlayan @aucan
 
-Öğrenci Ad Soyad=
-Öğrenci No=
-Bölüm=
-Sınıf=
+Öğrenci Ad Soyad=Hasan Can  
+Öğrenci No=2018507033
+Bölüm=YBS
+Sınıf=4
 '''
 
 class urunler:
@@ -41,7 +41,7 @@ def sepet_fiyati(kar_orani):
     yumurta=urunler('yumurta',5,0.30,0.19)
     toplam=0   
     #-------**-----------
-    #kodunuzu bu yorum satırını silerek buraya yazınız, diğer kısımları değiştirmeyiniz.
+    print(toplam)
     #-------**-----------
     return toplam
 
